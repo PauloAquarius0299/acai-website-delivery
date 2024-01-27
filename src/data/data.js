@@ -1,0 +1,140 @@
+export const data = [
+    {
+        id: 1,
+        name: 'Açaí no Pote',
+        Category: 'Açaí',
+        image: 'https://receitinhas.com.br/wp-content/uploads/2023/05/acai-na-tigela-1200x692.jpg',
+        price: '30,00',
+    },
+    {
+        id: 2,
+        name: 'Açaí no Copo',
+        Category: 'Açaí',
+        image: 'https://st2.depositphotos.com/17524768/45086/i/450/depositphotos_450860316-stock-photo-brazilian-frozen-plastic-cup-condensed.jpg',
+        price: '20,00',
+    },
+    {
+        id: 3,
+        name: 'Creme de Açaí',
+        Category: 'Açaí',
+        image: 'https://www.saborama.com.br/wp-content/uploads/2014/05/original-home_creme_da_a-a-_na_tigela.jpg20170928-537-14yw5d4.jpg',
+        price: '20,00',
+    },
+    {
+        id: 4,
+        name: 'Sorvete de Açaí',
+        Category: 'Açaí',
+        image: 'https://i.pinimg.com/736x/df/df/3e/dfdf3ee35bbb16056d0e54a5f4c43ac1.jpg',
+        price: '15,00',
+    },
+    {
+        id: 5,
+        name: 'Sorvete 200ml',
+        Category: 'Sorvete',
+        image: 'https://www.dicasdemulher.com.br/wp-content/uploads/2021/08/sorvete-fit-00.png',
+        price: '30,00',
+    },
+    {
+        id: 6,
+        name: 'Sorvete 400ml',
+        Category: 'Sorvete',
+        image: 'https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2023/09/14/dia-do-sorvete-s1jgtxr2stwh.jpg',
+        price: '40,00',
+    },
+    {
+        id: 7,
+        name: 'Sorvete 700ml',
+        Category: 'Sorvete',
+        image: 'https://imagens.jotaja.com/produtos/3898/E175D2E43A81E16A95B3E7F4F26F3EC01DC58782777B8E07CE55A9D1896A7396.jpeg',
+        price: '50,00',
+    },
+    {
+        id: 8,
+        name: 'Picolé de Frutas',
+        Category: 'Picolé',
+        image: 'https://s2.glbimg.com/Bmaqwbv5uld3b3XvNLQFa3cWLl4=/620x455/e.glbimg.com/og/ed/f/original/2019/07/16/picole-de-frutas.png',
+        price: '8,00',
+    },
+    {
+        id: 9,
+        name: 'Picolé de Castenhas',
+        Category: 'Picolé',
+        image: 'https://www.comidaereceitas.com.br/wp-content/uploads/2014/02/Picoles-de-sorvete-de-chocolate-amargo-com-chocolate.jpg',
+        price: '15,00',
+    },
+    {
+        id: 10,
+        name: 'Milk-Shake 400ml',
+        Category: 'Milk-Shake',
+        image: 'https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3407509:1692696111/milkshake.jpg?f=16x9&$p$f=3c08bae',
+        price: '20,00',
+    },
+    {
+        id: 11,
+        name: 'Milk-Shake 700ml',
+        Category: 'Milk-Shake',
+        image: 'https://bakingmischief.com/wp-content/uploads/2022/03/coffee-milkshake-square-500x500.jpg',
+        price: '30,00',
+    },
+    {
+        id: 12,
+        name: 'Milk-Shake 1L',
+        Category: 'Milk-Shake',
+        image: 'https://polosulsc.com.br/wp-content/uploads/2018/05/Milk-shake-com-sorvete-italiano-1.jpg',
+        price: '50,00',
+    },
+    {
+        id: 13,
+        name: 'Banana Split pequena',
+        Category: 'Banana Split',
+        image: 'https://hips.hearstapps.com/hmg-prod/images/banana-split-index-6478e3976e52d.jpg?crop=0.7501754385964912xw:1xh;center,top&resize=1200:*',
+        price: '30,00',
+    },
+    {
+        id: 13,
+        name: 'Banana Split grande',
+        Category: 'Banana Split',
+        image: 'https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FSeries%2F2021-05-how-to-banana-split%2F2021-05-18_ATK-0453',
+        price: '40,00',
+    },
+    
+    
+]
+export const categories = [
+
+    {
+        id: 1,
+        name: 'Açaí',
+        image: 'https://png.pngtree.com/png-clipart/20230912/original/pngtree-acai-bowl-vector-png-image_11052724.png',
+        price: '$',
+    },
+        {
+            id: 2,
+            name: 'Sorvete',
+            Category: 'Soverte',
+            image: 'https://static.vecteezy.com/system/resources/previews/023/636/520/non_2x/ice-cream-illustration-colorful-cartoon-free-png.png',
+            price: '$',
+        },
+        {
+            id: 3,
+            name: 'Picolé',
+            Category: 'Picole',
+            image: 'https://images.vexels.com/media/users/3/300120/isolated/preview/6a6f2db5b8287d457ab667298e68b381-picola-de-chocolate-derretendo.png',
+            price: '$',
+        },
+        {
+            id: 4,
+            name: 'Milk-Shake',
+            Category: 'Milke-Shake',
+            image: 'https://png.pngtree.com/png-clipart/20230913/original/pngtree-frappuccino-clipart-ice-cream-milkshake-milk-shake-with-chocolate-cream-illustration-png-image_11063377.png',
+            price: '$',
+        },
+        {
+            id: 5,
+            name: 'Banana Split',
+            Category: 'Banana Split',
+            image: 'https://png.pngtree.com/png-clipart/20230819/original/pngtree-banana-split-ice-cream-isolated-picture-image_8069232.png',
+            price: '$',
+        },
+    
+]
